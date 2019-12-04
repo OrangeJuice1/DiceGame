@@ -1,0 +1,126 @@
+html,
+body {
+    font-family: 'Arimo', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    position: relative;
+    height: 95%;
+}
+
+
+/*buttons*/
+
+.button1 {
+    background-color: #0CCE6B;
+    border: black 2px solid;
+}
+
+.button2 {
+    background-color: white;
+    border: black 2px solid;
+}
+
+.button3 {
+    background-color: #0CCE6B;
+    border: black 2px solid;
+}
+
+/*Player panels*/
+
+.playerOne,
+.playerTwo {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.playerOne {
+    float: left;
+}
+
+.playerTwo {
+    background-color: white;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 30%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #EF2D56;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+h4 {
+    text-align: center;
+    color: #EF2D56;
+    font-size: 2rem;
+
+}
+
+/*Images*/
+
+img {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+}
+
+/*Modals*/
+
+.helpModal {
+    position: absolute;
+}
+
+#modalHeader {
+    color: black;
+}
+
+.modal-body {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.settingsModal {
+    position: absolute;
+    right: 0;
+}
+
+/*change content dependant on active player or the winner*/
+
+.active {
+    background-color: #0CCE6B;
+}
+
+.toggle {
+    background-color: white;
+}
+
+#winner {
+    position: absolute;
+    width: 60rem;
+    height: 30rem;
+    visibility: hidden;
+}
